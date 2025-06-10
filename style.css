@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #877ff8;
+  background-image: url('FUNDO\ DO\ PAINT.png');
+  background-repeat: repeat;
+  background-size: 300px;
+  background-attachment: fixed;
+  background-color: #f5f5f5; 
+  font-family: 'Segoe UI', sans-serif;
+}
+
+header {
+  
+  color:black;
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.galeria img {
+  width: 100%;
+  height: 240px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.galeria img:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background:#a87aee;
+  color: #aaa;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 30px;
+}
+
+.logo img{
+width:60px;
+}
+iframe{
+ width: 100%;
+  height: 240px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+.sobre{
+  width: 1500px;
+  max-width: 90%;
+  height: 150px;
+  background-color:#a87aee;
+  border-radius: 20px;
+  margin: 0 auto
+}
